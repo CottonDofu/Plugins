@@ -2,7 +2,7 @@
 // CT_SkipWait.js
 // ----------------------------------------------------------------------------
 // Copyright (c) 2017 CottonDofu
-// This software is released under the MIT License.
+// This software is released under the MIT License, see
 // http://opensource.org/licenses/mit-license.php
 //=============================================================================
 
@@ -20,9 +20,9 @@
  * SkipWait         : If you key in, it's possible to skip a 'wait' command just after this plugin command.
  *
  * 利用規約：
- *  作者に無断で改変、再配布が可能で、利用形態（商用、18禁利用等）
- *  についても制限はありません。
- *  このプラグインはもうあなたのものです。
+ *  文頭のMITライセンスに準じます。
+ *  作者への無断での利用・改変を許可しますが
+ *  無保証であり、自己責任での使用をお願いします。
  */
 (function () {
 	var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
