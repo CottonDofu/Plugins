@@ -73,7 +73,6 @@
 
 	var _CT1_Game_Interpreter_updateWaitCount = Game_Interpreter.prototype.updateWaitCount
 	Game_Interpreter.prototype.updateWaitCount = function() {
-	console.log(this.skipSwitch);
 		if((this.skipWait == true) 
 		 &&(Input.isTriggered('ok') 
 		   || Input.isTriggered('cancel') 
