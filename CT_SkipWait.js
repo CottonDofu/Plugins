@@ -1,5 +1,5 @@
 //=============================================================================
-// CT_SkipWait.js  ver.1.1
+// CT_SkipWait.js  ver.1.1 
 // ----------------------------------------------------------------------------
 // Copyright (c) 2017 CottonDofu
 // This software is released under the MIT License, see
