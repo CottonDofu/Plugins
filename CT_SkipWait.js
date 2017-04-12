@@ -27,6 +27,7 @@
  *    　条件分岐を組み合わせることで
  *    　「キーを押したらここの処理まで全スキップ」
  *    　という処理などを実現できます。
+ *    　この処理を実行した時、指定したスイッチは自動でOFFになります。
  *
  *  【使用例】
  *    スキップウェイト （次のウェイト命令をスキップ可能にする）
@@ -52,10 +53,12 @@
 	  if (command == "スキップウェイト") {
 	        this.skipWait = true;
 		this.skipSwitch = args[0]||-1;
+		if (this.skipSwitch != -1){$gameSwitches.setValue(this.skipSwitch,false);}
 	  }
 	  if (command == "SkipWait") {
 	        this.skipWait = true;
 		this.skipSwitch = args[0]||-1;
+		if (this.skipSwitch != -1){$gameSwitches.setValue(this.skipSwitch,false);}
 	  }
 	};
 
